@@ -115,8 +115,7 @@ class MainActivity : ComponentActivity() {
                                 contentDescription = "Imagen ampliada",
                                 modifier = Modifier
                                     .fillMaxWidth()
-                                    .height(300.dp)
-                                    .clip(MaterialTheme.shapes.extraLarge),
+                                    .height(300.dp),
                                 contentScale = ContentScale.Fit
                             )
                         }
